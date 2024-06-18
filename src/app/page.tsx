@@ -1,9 +1,18 @@
-import Image from "next/image";
+
 import UpdatedFundDetails from "./components/UpdatedFundDetails";
+import UserCard from "./components/UserCard";
+
+
+
 
 export default function Home() {
   return (
-
+    <>
    <UpdatedFundDetails/>
+    <UserCard/>
+  
+  
+    </>
+
   );
 }
